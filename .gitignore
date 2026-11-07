@@ -1,0 +1,37 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / 本地配置
+.vscode/
+.idea/
+*.local
+*.suo
+*.sw?
+
+# 临时目录与本地调试产物
+.screenshots/
+.trae-html-share-packages/
+.tmp/
